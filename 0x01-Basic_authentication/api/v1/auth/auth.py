@@ -63,8 +63,3 @@ class Auth:
         """
         return None
     
-    
-    
-
-
-    
