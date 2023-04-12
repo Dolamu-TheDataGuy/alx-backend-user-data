@@ -27,7 +27,7 @@ def before_req():
     if auth is None:
         pass
     else:
-        excluded = ['/api/v1/status/', 
+        excluded = ['/api/v1/status/',
                     '/api/v1/unauthorized/',
                     '/api/v1/forbidden/'
                     ]
